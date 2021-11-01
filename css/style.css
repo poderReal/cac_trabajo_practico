@@ -116,21 +116,21 @@ table .cabecera th{
 
 thead th{
     font-size: 0.9vw;
-    background-color: rgb(75, 75, 151);
+    background-color: rgb(53, 53, 120);
     padding: auto;
 }
 
 tbody .items_dolar td, tbody .items_eeuu td {
     font-size: 0.82vw;
     font-weight: 1000;
-    background-color: rgb(75, 75, 151);
+    background-color: rgb(53, 53, 120);
     color: black;
 }
 
 tbody .items td {
     font-size: 0.88vw;
     font-weight: 1000;
-    background-color: rgb(75, 75, 151);
+    background-color: rgb(53, 53, 120);
     color: black;
 }
 
@@ -140,11 +140,11 @@ tbody td{
 }
 
 table tbody tr:hover{
-    background-color: rgb(82, 74, 74);
+    background-color: rgb(116, 101, 101);
 }
 
 tbody tr td{
-    color: rgb(48, 180, 48);
+    color: rgb(14, 51, 14);
     padding: 0.2vw 0.25vw 0.2vw;
 }
 
@@ -196,15 +196,15 @@ tbody tr td{
 }
 
 .negativo{
-    color: rgb(199, 72, 70);
+    color: rgb(158, 3, 3);
 }
 
 tbody tr:nth-child(odd) {
-    background-color: rgb(53, 53, 120);
+    background-color: rgb(219, 219, 224);
 }
   
 tbody tr:nth-child(even) {
-    background-color: rgb(12, 62, 107);
+    background-color: slategray;
 } 
   
 footer {
@@ -213,6 +213,14 @@ footer {
     font-size: 1.1vw;
     text-align: center;
     height: 90px;
+}
+
+.myclass {
+    background-color:rgb(13, 13, 95);
+}
+
+.myfooterclass {
+    color: white;
 }
 
 .contactotipo{
@@ -259,20 +267,18 @@ footer {
 
 .caja1, .caja5{
     background-color: rgb(88,94,10);
+    color: rgb(158, 154, 154);
     margin: 10px auto 10px;
-    padding-top: 1.5vw;
-    padding-bottom: 1vw;
+    padding: 1.5vw 0.7vw 1vw 15px;
     border-radius: 0.5vw;
-    padding-left: 15px;
 }
 
 .caja2, .caja4 {
     background-color:rgb(159, 171, 7);
+    color: rgb(49, 48, 48);
     margin: 10px auto 10px;
-    padding-top: 1.5vw;
-    padding-bottom: 1vw;
+    padding: 1.5vw 0.7vw 1vw 15px;
     border-radius: 0.5vw;
-    padding-left: 15px;
 }
 
 .caja3, .caja6 {
