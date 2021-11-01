@@ -394,6 +394,21 @@ for (let i = 0; i < listatdsEEUU.length; i++) {
     };
 };
 
+const EEUUprecios = []; 
+
+for (const key in wallstreet) {
+    EEUUprecios.push(wallstreet[key][2]);
+}
+
+const Selec_preciosEEUU = [];
+
+for (var i in listaselectoresEEUU){
+    Selec_preciosEEUU.push(document.querySelectorAll(`#acciones_usa .${listaselectoresEEUU[i]} .precio`));  
+};
+
+for (let i = 0; i < Selec_preciosEEUU.length; i++) {
+    Selec_preciosEEUU[i][0].innerHTML=EEUUprecios[i];
+}
 
 //bonos
 
